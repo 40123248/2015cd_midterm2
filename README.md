@@ -133,6 +133,7 @@ week 7
 3. 最後當使用者以Creo Parametric 內嵌的 IE 瀏覽器執行此一網際套件, 完成輔助運算與繪圖後, 可以在近端硬碟中取得符合減速需求的兩個正齒輪 3D 零件檔案.
 
 期中考:
+
 1. 讓此一倉儲與名稱為 cd0427-各帳號namespace.rhcloud.com 的 OpenShift 網站資料同步
 2. 讓 OpenShift 網站的 index 方法, 能夠傳回自己的學號資料
 
