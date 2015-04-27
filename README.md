@@ -60,6 +60,7 @@ w3任務回報:
 2.waffle、gitbook、github同步。
 
 week4
+
 Scrum in Mechanical Product Development
 先消化這一份資料: Scrum 是很有內涵的
 閱讀完畢
