@@ -77,7 +77,6 @@ Scrum in Mechanical Product Development
 產出物>建議使用excel來記錄產品清單   *(排序)很重要由重要>次要畫燃盡圖(task完成               度) 檢視會議程序以及總結報告軟體也必須具備*可執行軟體(隨時可使用)
 
 
-week4 
 
 須執行專案在4/8前完成
 
