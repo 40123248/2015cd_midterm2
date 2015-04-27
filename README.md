@@ -45,6 +45,7 @@ week 2
 7.	了解主題一的要求: 正齒輪減速機零件設計繪圖服務系統
 
 week3
+
 乙班在 https://github.com/coursemdetw/2015cdb.git wiki 與 http://wordpress-2015course.rhcloud.com/ 回報各組的 https://waffle.io/ 專案執行連結, 以及專案一協同執行進度摘要, 例如: https://waffle.io/coursemdetw/2015cd 為 2015cd 專案管理連結.
 
 w3任務回報:
