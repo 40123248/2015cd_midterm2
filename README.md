@@ -78,10 +78,18 @@ Scrum in Mechanical Product Development
 
 
 week4 
+
 須執行專案在4/8前完成
+
 surumaster
+
 product-owner
+
 scrum-1  需要有組員交換意見的平台
+
 scrum-2  可同步資料
+
 scrum-3  完成 2D 正齒輪繪圖系統
+
 scrum-4  完成 3D 正齒輪繪圖系統
+
