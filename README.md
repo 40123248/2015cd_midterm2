@@ -76,3 +76,12 @@ Scrum in Mechanical Product Development
 每日小會議:花15分(站著)開會報告三件事昨天做了什麼 1.今天準備做什麼 2.                                         遇到  3.問題  重點在於各種開會與小活動
 產出物>建議使用excel來記錄產品清單   *(排序)很重要由重要>次要畫燃盡圖(task完成               度) 檢視會議程序以及總結報告軟體也必須具備*可執行軟體(隨時可使用)
 
+
+week4 
+須執行專案在4/8前完成
+surumaster
+product-owner
+scrum-1  需要有組員交換意見的平台
+scrum-2  可同步資料
+scrum-3  完成 2D 正齒輪繪圖系統
+scrum-4  完成 3D 正齒輪繪圖系統
