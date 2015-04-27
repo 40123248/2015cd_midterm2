@@ -47,6 +47,18 @@ week 2
 week3
 乙班在 https://github.com/coursemdetw/2015cdb.git wiki 與 http://wordpress-2015course.rhcloud.com/ 回報各組的 https://waffle.io/ 專案執行連結, 以及專案一協同執行進度摘要, 例如: https://waffle.io/coursemdetw/2015cd 為 2015cd 專案管理連結.
 
+w3任務回報:
+
+1.專案一執行流程:
+
+(1)先大略的分配，下週將細部去分配工作，先用waffle分配各組員的工作
+
+(2)在4/4時須完成各項工作
+
+(3)工作執行完後再將內容整合至leo中
+
+2.waffle、gitbook、github同步。
+
 week4
 Scrum in Mechanical Product Development
 先消化這一份資料: Scrum 是很有內涵的
