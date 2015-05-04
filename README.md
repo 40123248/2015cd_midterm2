@@ -1,19 +1,8 @@
 <<<<<<< HEAD
+
 # Introduction
 
-March - July 2015
 
-Welcome, this is an ongoing project record for a university course named collaborative product design principles and practices.
-
-Github integration: https://github.com/coursemdetw/2015cd.git 
-
-course website: http://cd-cadp.rhcloud.com
-
-
-
-
-=======
-# 2015cd_midterm
 >>>>>>> 
 期中報告
 
@@ -142,3 +131,4 @@ week 7
 這是上周作的 兩個齒輪 本周要求表單並繪出齒輪就好
 
 
+# 2015cd_midterm2
