@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 # Introduction
@@ -19,6 +20,13 @@ course website: http://cd-cadp.rhcloud.com
 # 2015cd_midterm
 >>>>>>> 
 >>>>>>> 2768da191d5f52af81cf7a55f0425d4403caade4
+=======
+
+# Introduction
+
+
+>>>>>>> 
+>>>>>>> bd1e11a69da914ede46954ea3ba75b4423f47812
 期中報告
 
 Week1
@@ -146,3 +154,7 @@ week 7
 這是上周作的 兩個齒輪 本周要求表單並繪出齒輪就好
 
 
+<<<<<<< HEAD
+=======
+# 2015cd_midterm2
+>>>>>>> bd1e11a69da914ede46954ea3ba75b4423f47812
