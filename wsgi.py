@@ -97,13 +97,12 @@ class Hello(object):
     40123247
     40123143
     40123237
-<<<<<<< HEAD
+
     <br/>
     <a href="drawspur">drawspur</a>
     <br/>
     <a href="spur">spur</a>
-=======
->>>>>>> bd1e11a69da914ede46954ea3ba75b4423f47812
+
     '''
 
         return outstring
@@ -152,10 +151,6 @@ class Hello(object):
     P:<input type=text name="c"><br />
     <input type=submit value=send>
     </form>'''
-<<<<<<< HEAD
-
-=======
->>>>>>> bd1e11a69da914ede46954ea3ba75b4423f47812
         return outstring
     #@+node:2015.20150408193313.1714: *3* M
     @cherrypy.expose
@@ -306,11 +301,7 @@ class Hello(object):
         <canvas id="plotarea" width="800" height="600"></canvas>
         </body>
         </html>
-<<<<<<< HEAD
     <a href="index">index</a>
-
-=======
->>>>>>> bd1e11a69da914ede46954ea3ba75b4423f47812
         '''
     #@+node:2015.20150427142146.1645: *3* spur
     @cherrypy.expose
@@ -327,12 +318,7 @@ class Hello(object):
     @cherrypy.expose
     def O(self,a, b, c):
         # 印出讓使用者輸入的超文件表單    
-<<<<<<< HEAD
         return '模數' + a +'齒數' + b + '壓力角' + c + '''<a href="index">index</a>'''
-
-=======
-        return '模數' + a +'齒數' + b + '壓力角' + c
->>>>>>> bd1e11a69da914ede46954ea3ba75b4423f47812
     #@+node:2015.20150422191956.1844: *3* three
     @cherrypy.expose
     def three(self):
