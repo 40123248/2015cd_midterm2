@@ -146,9 +146,9 @@ class Hello(object):
     def drawspur(self):
         # 印出讓使用者輸入的超文件表單
         outstring = '''<form method=POST action=M>
-    M:<input type=text name="a"><br />
-    T:<input type=text name="b"><br />
-    P:<input type=text name="c"><br />
+    模數:<input type=text name="a"><br />
+    齒數:<input type=text name="b"><br />
+    壓力角:<input type=text name="c"><br />
     <input type=submit value=send>
     </form>'''
         return outstring
@@ -293,10 +293,16 @@ class Hello(object):
             # lfx 為齒頂圓上的左側 x 座標, lfy 則為 y 座標
             # 下列為齒頂圓上用來近似圓弧的直線
             create_line(lfx,lfy,rfx,rfy,fill=顏色)
-     
-    gear(400,400,''' + str(total) + ',' + str(b) +  ''',"blue")
-
-
+    ctx.save()
+    ctx.translate(400, 400)
+    ctx.rotate(pi/2)
+    gear(0, 0,''' + str(total) + ',' + str(b) +  ''',"blue")
+    ctx.restore()
+    ctx.save()
+    ctx.translate(400 + ''' + str(2*total) + ''',400)
+    ctx.rotate(-(pi/2) -pi/ '''  + str(b) + ''')
+    gear(0, 0,''' + str(total) + ',' + str(b) +  ''',"yellow")
+    ctx.restore()
         </script>
         <canvas id="plotarea" width="800" height="600"></canvas>
         </body>
@@ -308,9 +314,9 @@ class Hello(object):
     def spur(self):
         # 印出讓使用者輸入的超文件表單
         outstring = '''<form method=POST action=O>
-    M:<input type=text name="a"><br />
-    T:<input type=text name="b"><br />
-    P:<input type=text name="c"><br />
+    模數:<input type=text name="a"><br />
+    齒數:<input type=text name="b"><br />
+    壓力角:<input type=text name="c"><br />
     <input type=submit value=send>
     </form>'''
         return outstring
@@ -608,11 +614,19 @@ application_conf = {'/static':{
         'tools.staticdir.dir': data_dir+"/images"}
     }
 
+# 以下為 cdag30 的模組導入與連結設定
+import man
+import man2
+
+root = Hello()
+root.man = man.MAN()
+root.man2 = man2.MAN()
+
 if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
     # 表示在 OpenSfhit 執行
-    application = cherrypy.Application(Hello(), config=application_conf)
+    application = cherrypy.Application(root, config=application_conf)
 else:
     # 表示在近端執行
     cherrypy.config.update({'server.socket_port': 8099})
-    cherrypy.quickstart(Hello(), config=application_conf)
+    cherrypy.quickstart(root, config=application_conf)
 #@-leo
